@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "7c0edb62-af91-4b23-a3df-c0f0f261c067",
+		"name": "Basic-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1599030"
+	},
+	"item": [
+		{
+			"name": "GET INDEX",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ARTICLES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/articles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
